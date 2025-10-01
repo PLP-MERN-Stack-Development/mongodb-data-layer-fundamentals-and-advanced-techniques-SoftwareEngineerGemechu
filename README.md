@@ -56,4 +56,18 @@ Complete all the exercises in this assignment and push your code to GitHub using
 
 - [MongoDB Documentation](https://docs.mongodb.com/)
 - [MongoDB University](https://university.mongodb.com/)
-- [MongoDB Node.js Driver](https://mongodb.github.io/node-mongodb-native/) 
+- [MongoDB Node.js Driver](https://mongodb.github.io/node-mongodb-native/)
+
+# 📘 MongoDB Bookstore Project
+
+## 🚀 How to Run
+
+1. Make sure you have **MongoDB** running locally (`mongod`) or adjust the URI in the scripts if using MongoDB Atlas.
+2. Install Node.js dependencies (only `mongodb` is required):
+
+```bash
+npm install mongodb
+3. Run the insert script to populate your database:
+node insert_books.js
+4. Run the queries script to test CRUD, advanced queries, aggregation, and indexing:
+node queries.js
